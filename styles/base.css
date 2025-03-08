@@ -7,12 +7,12 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #dbbe17;
+    background-color: hwb(0 96% 3%);
 }
 
 header {
     background-color: #136810;
-    color: #f3f3f0;
+    color: #dbbe17;
     padding: 1rem;
     text-align: center;
 }
@@ -34,7 +34,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #f3f3f0;
+    color: #dbbe17;
     text-decoration: none;
     font-size: 1.2rem;
 }
@@ -104,7 +104,7 @@ main {
 
 footer {
     background-color: #136810;
-    color:  #f3f3f0;
+    color:  #dbbe17;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
