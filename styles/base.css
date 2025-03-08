@@ -7,12 +7,12 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: hsl(0, 67%, 1%);
+    background-color: hwb(0 96% 3%);
 }
 
 header {
     background-color: #136810;
-    color: #dbbe17;
+    color: #f3f3f0;
     padding: 1rem;
     text-align: center;
 }
@@ -104,7 +104,7 @@ main {
 
 footer {
     background-color: #136810;
-    color: #dbbe17;
+    color:  #f3f3f0;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
