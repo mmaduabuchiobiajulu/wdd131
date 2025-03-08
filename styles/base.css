@@ -34,7 +34,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #dbbe17;
     text-decoration: none;
     font-size: 1.2rem;
 }
@@ -54,7 +54,7 @@ main {
 
 .card {
     display: grid;
-    background-color: #dbbe17;;
+    background-color: #fff;
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
