@@ -1,0 +1,113 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #205781;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 180px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-row: 600px 450px;
+    grid-template-columns: 600px 450px;  /* Two-column layout */
+    
+    gap: 2rem;
+}
+
+.card {
+    display: grid;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card.large {
+    font-size: 1.2rem;
+    /* Make the first card larger */
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-content p {
+    font-size: 1rem;
+}
+
+.side-image {
+    max-width: 150px;  /* Set a max-width for the image */
+    height: auto;
+    border-radius: 8px;
+}
+
+.down-image {
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.new-li {
+    display: grid;
+}
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #205781;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    font-size: 1rem;
+}
