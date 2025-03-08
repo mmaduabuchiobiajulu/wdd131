@@ -47,7 +47,7 @@ main {
     width: 80%;
     margin: 2rem auto;
     display: grid;
-    grid-template-rows: 390px 0px;
+    grid-template-rows: 405px 0px;
     grid-template-columns: 600px 450px;  /* Two-column layout */
     gap: 2rem;
 }
