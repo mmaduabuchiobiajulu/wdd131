@@ -12,7 +12,7 @@ body {
 
 header {
     background-color: #136810;
-    color: hsl(0, 75%, 2%);
+    color: hsl(258, 50%, 96%);
     padding: 1rem;
     text-align: center;
 }
@@ -34,7 +34,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: hsl(0, 75%, 2%);
+    color: hsl(258, 50%, 96%);
     text-decoration: none;
     font-size: 1.2rem;
 }
@@ -104,7 +104,7 @@ main {
 
 footer {
     background-color: #136810;
-    color:  hsl(0, 75%, 2%);
+    color:  hsl(258, 50%, 96%);
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
