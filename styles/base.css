@@ -47,9 +47,8 @@ main {
     width: 80%;
     margin: 2rem auto;
     display: grid;
-    grid-row: 600px 450px;
+    grid-template-rows: 410px 0px;
     grid-template-columns: 600px 450px;  /* Two-column layout */
-    
     gap: 2rem;
 }
 
@@ -91,6 +90,9 @@ main {
 
 .new-li {
     display: grid;
+    padding: 2rem;
+    gap: 1rem;
+
 }
 
 .about-us {
