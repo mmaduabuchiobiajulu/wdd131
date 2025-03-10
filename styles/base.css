@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #136810; /* Dark Green */
+    --primary-color: #136810;
     --secondary-color: hsl(200, 20%, 94%);
-    --accent-color: hsl(50, 43%, 3%); /* Darkened Yellow for better contrast */
-    --text-color: hwb(0 97% 3%); /* Dark text color */
+    --accent-color: #dbbe17;
+    --text-color:  hsl(0, 75%, 2%);
     --background-color: hsl(258, 50%, 96%);
     --font-primary: 'Merriweather', serif;
     --font-secondary: 'Roboto', sans-serif;
