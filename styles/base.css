@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #136810;
+    background-color: #136810; /* Green background */
     color: white;
     padding: 1rem;
     text-align: center;
@@ -41,6 +41,7 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
+    color: #e0e0e0; /* Lighten the hover color for contrast */
 }
 
 main {
@@ -48,7 +49,7 @@ main {
     margin: 2rem auto;
     display: grid;
     grid-template-rows: 400px 0px;
-    grid-template-columns: 600px 450px;  /* Two-column layout */
+    grid-template-columns: 600px 450px; /* Two-column layout */
     gap: 2rem;
 }
 
@@ -77,7 +78,7 @@ main {
 }
 
 .side-image {
-    max-width: 150px;  /* Set a max-width for the image */
+    max-width: 150px; /* Set a max-width for the image */
     height: auto;
     border-radius: 8px;
 }
@@ -92,7 +93,6 @@ main {
     display: grid;
     padding: 2rem;
     gap: 1rem;
-
 }
 
 .about-us {
@@ -103,7 +103,7 @@ main {
 }
 
 footer {
-    background-color: #136810;
+    background-color: #136810; /* Green background */
     color: white;
     text-align: center;
     padding: 1rem;
