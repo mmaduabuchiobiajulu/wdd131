@@ -1,18 +1,18 @@
+:root {
+    --primary-color: #136810; /* Dark Green */
+    --secondary-color: hsl(200, 20%, 94%);
+    --accent-color: #d0a500; /* Darkened Yellow for better contrast */
+    --text-color: hsl(0, 75%, 2%); /* Dark text color */
+    --background-color: hsl(258, 50%, 96%);
+    --font-primary: 'Merriweather', serif;
+    --font-secondary: 'Roboto', sans-serif;
+}
+
 /* Reset some default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-:root {
-    --primary-color: #136810;
-    --secondary-color: hsl(200, 20%, 94%);
-    --accent-color: #dbbe17;
-    --text-color: hsl(0, 75%, 2%);
-    --background-color: hsl(258, 50%, 96%);
-    --font-primary: 'Merriweather', serif;
-    --font-secondary: 'Roboto', sans-serif;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 
 header {
     background-color: var(--primary-color);
-    color: var(--accent-color);
+    color: var(--accent-color); /* Darkened accent for better contrast */
     padding: 1rem;
     text-align: center;
 }
@@ -46,7 +46,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: var(--accent-color);
+    color: var(--accent-color); /* Darkened accent for better contrast */
     text-decoration: none;
     font-size: 1.2rem;
 }
@@ -67,7 +67,7 @@ main {
 
 .card {
     display: grid;
-    background-color: var(--accent-color);
+    background-color: var(--accent-color); /* Darkened yellow */
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -116,7 +116,7 @@ main {
 
 footer {
     background-color: var(--primary-color);
-    color: var(--accent-color);
+    color: var(--accent-color); /* Darkened accent for better contrast */
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
@@ -125,4 +125,5 @@ footer {
 footer p {
     font-size: 1rem;
 }
+
 
