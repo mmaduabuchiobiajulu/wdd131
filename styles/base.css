@@ -113,3 +113,14 @@ footer {
 footer p {
     font-size: 1rem;
 }
+
+/* Define CSS variables for consistency */
+:root {
+    --primary-color: #136810;
+    --secondary-color: hsl(200, 20%, 94%);
+    --accent-color: #dbbe17;
+    --text-color:  hsl(0, 75%, 2%);
+    --background-color: hsl(258, 50%, 96%);
+    --font-primary: 'Merriweather', serif;
+    --font-secondary: 'Roboto', sans-serif;
+}
