@@ -1,0 +1,12 @@
+@media screen and (max-width: 500px) {
+    header{
+        background-color: black;
+        color: hsl(0, 0%, 99%);
+        
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+    
