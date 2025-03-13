@@ -18,6 +18,11 @@ p {
 	/* background-color: #eee; */
 }
 
+h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
 .navigation .logo{
     font-size: 35px; 
     font-weight: 600; 
