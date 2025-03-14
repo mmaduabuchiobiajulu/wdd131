@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: hsl(188, 97%, 44%);
+    background-color: hsl(210, 8%, 5%);
     padding: 20px;
 }
 
@@ -70,8 +70,8 @@ ul {
 	flex-direction: column;
 	justify-content: space-around;
 	list-style: none;
-	background-color: hsl(188, 97%, 44%);
-	color: #fff;
+	background-color: hsl(64, 78%, 51%);
+	color: #070606;
 }
 
 .navigation {
@@ -116,7 +116,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: hsl(188, 97%, 44%);
+    background-color: hsl(0, 0%, 3%);
     color: #fff;
     text-align: center;
     padding: 20px;
