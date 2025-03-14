@@ -70,7 +70,7 @@ ul {
 	flex-direction: column;
 	justify-content: space-around;
 	list-style: none;
-	background-color: hsl(64, 78%, 51%);
+	background-color: hsl(60, 8%, 3%);
 	color: #070606;
 }
 
@@ -98,7 +98,7 @@ nav a {
 
 nav a:hover {
     color: rgb(242, 246, 248);
-    background-color: #070a0a;
+    background-color: #054d4d;
     padding-right: 35px;
     
 }
