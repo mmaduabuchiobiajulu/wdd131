@@ -1,162 +1,128 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-body {
-	font-family: Roboto, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-  
+
+header {
+    background-color: hsl(188, 97%, 44%);
+    padding: 20px;
+}
+
+header h1 {
+    color: #fff;
+    font-family: 'Quicksand', 'Nunito', 'sans-serif';
+    font-size: 1.8rem;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main h2 {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Quicksand', 'Nunito', 'sans-serif';
 }
 
 
-p {
-	margin: 1rem;
-	/* border: 1px solid rgb(0 0 0 /0.1); */
-	/* padding: 0.5rem; */
-	/* background-color: #eee; */
-}
-
-h2{
-    display: flex;
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr;
     justify-content: center;
-    padding-top: 30px;
-}
-.navigation .logo{
-    font-size: 35px; 
-    font-weight: 600; 
-    color: #0a0a0a;
-    padding-right: 650px;
-    padding-top: 0px;
-}
-
-.h2{
-    display: grid;
+    align-items: center;
     text-align: center;
-    padding-top: 20px;
-    
-}
-
-
-/* Container for temple figures */
-.temples-container {
-    display: grid;
-  
-    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    justify-items: center;
-    padding-top: 150px;
-    padding: 50px;
-    background-color: #f4f4f4;
-    
+    margin-bottom: 50px;
 }
 
-/* Styling for figure elements */
-figure {
-    background-color: #fff;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    padding: 10px;
-    width: 100%;
-}
-
-/* Image styling */
 figure img {
-    width: 100%;
+    width: 400px;
     height: auto;
-    border-bottom: 2px solid #ccc;
+    margin: 0 auto;
+    padding: 10px;
 }
 
-/* Caption styling */
+figure {
+    margin: 0 auto;
+    text-align: center;
+}
+
 figcaption {
-    font-size: 1.1em;
-    margin-top: 10px;
-    color: #333;
-    font-weight: bold;
+    font-family: 'Josefin Sans';
 }
 
 
-/* Mobile view: Ensure images and captions are responsive */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 1.8em;
-    }
-
-    .temples-container {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Smaller columns for smaller screens */
-    }
-
-    figure {
-        padding: 10px;
-    }
+#menu-button {
+	font-size: 1.7rem;
+	border: 0;
+	background: none;
+	color: #fff;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+    cursor: pointer;
 }
 
-
-
-/* Mobile View ***************/
-#menu {
-	display: block;
-	font-size: 2rem;
-	font-weight: 700;
-	text-decoration: none;
-	padding: 0.5rem 0.75rem;
-	background-color: #eee;
-	color: #000;
-}
-
-#menu::before {
-	content: "≡";
-}
-
-nav {
-	background-color: rgb(150, 235, 250);
-}
-.navigation {
+ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 	list-style: none;
-	margin: 0 auto;
-	max-width: 760px;
+	background-color: hsl(188, 97%, 44%);
+	color: #fff;
 }
 
-.navigation li {
-	display: none;
+.navigation {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	list-style: none;
+	background-color: #02080a;
+	color: #ffffff;
 }
-.navigation a {
-	display: block;
-	padding: 0.75rem;
+
+nav a {
+	display: none;
+	padding: 1rem;
 	text-align: left;
 	text-decoration: none;
-	color: black;
-	font-weight: 700;
-	transition: 0.5s;
-	font-size: clamp(1rem, 2vmin, 1.5rem);
+	color: #fff;
+    font-family: 'Josefin Sans';
+    font-weight: 600;
+    transition: 0.4s;
+    font-size: 1.2rem;
+    padding-left: 35px;
 }
 
-.navigation a:hover,
-navigation a:active {
-	color: white;
-	background-color: black;
+nav a:hover {
+    color: rgb(242, 246, 248);
+    background-color: #070a0a;
+    padding-right: 35px;
+    
 }
 
-.show li {
-	display: block;
+.active a {
+    display: block;
 }
 
-#menu.show::before {
-	content: "X";
+#menu-button::before {
+    content: '☰';
 }
 
+#menu-button.active::before {
+	content: "✖";
+}
 
 footer {
-    background-color: rgb(150, 235, 250);
-    color: rgb(14, 18, 19);
+    background-color: hsl(188, 97%, 44%);
+    color: #fff;
     text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
+    padding: 20px;
+    font-family: 'Quicksand', 'Nunito', 'Sans Serif';
 }
 
 footer p {
-    font-size: 1rem;
+    padding-bottom: 5px;
 }

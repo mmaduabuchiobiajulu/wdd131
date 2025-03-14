@@ -1,24 +1,47 @@
-@media only screen and (min-width: 40em) {
-	.navigation {
-		display: flex;
-        justify-content: right;
-        margin-right: 15px;
-	}
-	.navigation li {
+@media (min-width: 50em){
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }   
+
+    nav li {
         display: block;
-	    padding: 0.75rem;
-	    text-align: left;
-	    text-decoration: none;
-	    color: black;
-	    font-weight: 700;
-	    transition: 0.5s;
-	    font-size: clamp(1rem, 2vmin, 1.5rem);
-	}
-	.navigation a {
-		text-align: left;
-	}
-	#menu {
-		display: none;
-	}
-    
+    }
+
+    nav a {
+        display: block;
+    }
+
+    .image-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 100%;
+    }
+
+    figure img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .grid-img {
+        padding-right: 10px;
+    }
+
+    .grid-img1 {
+        padding-left: 10px;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    header h1 {
+        font-size: 2.3rem;
+    }
 }
