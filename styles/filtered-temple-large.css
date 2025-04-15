@@ -1,0 +1,39 @@
+@media (min-width: 50em){
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }   
+
+    nav li {
+        display: block;
+    }
+
+    nav a {
+        display: block;
+    }
+
+    #temple-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 100%;
+    }
+
+    .temple-card img {
+        width: 100%;
+        height: 200px;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    header h1 {
+        font-size: 2.3rem;
+    }
+}
